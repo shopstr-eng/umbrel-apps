@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   nbxplorer:
-    image: nicolasdorier/nbxplorer:2.5.26@sha256:d75e224e2d03ccded2a927d77a5ddb311a6f77b219ac755b14ef4c9fe37f443e
+    image: nicolasdorier/nbxplorer:2.5.28@sha256:480dbf66c30ce0ab211b9275696647c9756f2f81750fd02162c0d3768ee73ffb
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
@@ -29,7 +29,7 @@ services:
       NBXPLORER_BTCHASTXINDEX: 1
 
   web:
-    image: btcpayserver/btcpayserver:2.1.1@sha256:d2ff7c561e310a6099e5656cf93e16b1f3264240f4e58becbe4deec918f9ea80
+    image: btcpayserver/btcpayserver:2.1.6@sha256:b83c0692fa5c7095c643e9c1b6cd0aa2185eca5c13fc2d06e0effb7109033bb4
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m

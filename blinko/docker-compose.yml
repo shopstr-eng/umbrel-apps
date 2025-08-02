@@ -24,7 +24,7 @@ services:
     restart: on-failure
 
   app:
-    image: blinkospace/blinko:1.0.7@sha256:c68dace6822a72729ddac773342594f3801a0f7ef6e40452b4027151b4830c47
+    image: blinkospace/blinko:1.2.2@sha256:3422ef06f0ea727c2c800d57e82dc350b3f8b42fb16918309ebcacc079519261
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:1111"]
       interval: 30s 

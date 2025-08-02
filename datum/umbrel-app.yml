@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: datum
 category: bitcoin
 name: DATUM
-version: "v0.3.1-beta-rev2"
+version: "v0.4.0-beta"
 tagline: Self-sovereign Bitcoin mining
 description: >-
   ⚙️ Please read the important setup instructions at the bottom of this page.
@@ -69,8 +69,7 @@ path: ""
 defaultUsername: "admin"
 deterministicPassword: true
 releaseNotes: >-
-  Datum now support umbrel widgets.
-
+  Full release notes can be found at https://github.com/OCEAN-xyz/datum_gateway/releases/tag/v0.4.0beta
 widgets:
   - id: "stats"
     type: "three-stats"

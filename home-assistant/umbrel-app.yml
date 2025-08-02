@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: home-assistant
 category: automation
 name: Home Assistant
-version: "2025.5.3"
+version: "2025.7.4"
 tagline: Home automation that puts local control & privacy first
 description: >-
   Open source home automation that puts local control and privacy
@@ -40,18 +40,22 @@ torOnly: false
 permissions:
   - STORAGE_DOWNLOADS
 releaseNotes: >-
-  This release includes various improvements and bug fixes, enhancing user experience and system stability.
+  This release includes various improvements and bug fixes across multiple integrations.
 
 
   Key highlights:
-    - Improved device handling across many integrations (Netatmo, QNAP, Matrix, WMSPro, ESPHome, Squeezebox, and more)
-    - Enhanced Z-Wave functionality and configuration flow
-    - Improved backup handling for Synology DSM
-    - Updates to various integrations including SmartThings, Ecovacs, and La Marzocco
-    - Better handling for states and identifiers across various devices
+    - Improved Z-Wave device handling
+    - Enhanced support for various smart home devices including Matter, LIFX, and Fujitsu
+    - Updated several dependencies for better performance and compatibility
+    - Fixed issues with Telegram bot, Rainbird, and Tesla integrations
 
 
-  Recent updates have also brought improvements to backups, voice, dashboards and various integrations.
+  Notable changes:
+    - Z-Wave devices now remain available even when offline
+    - Fixed brightness control for Matter and LIFX lights
+    - Added fan off mode for Fujitsu FGLair
+    - Improved handling of MQTT sensors with empty units
+    - Enhanced stability for Homematic IP Cloud connections
 
 
   Full release notes are available at https://github.com/home-assistant/core/releases

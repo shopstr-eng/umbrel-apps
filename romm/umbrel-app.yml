@@ -2,7 +2,7 @@ manifestVersion: 1
 id: romm
 category: media
 name: RomM
-version: "3.10.0"
+version: "4.0.1"
 tagline: A beautiful, powerful, self-hosted rom manager
 description: >-
   👾 RomM (ROM Manager) allows you to scan, enrich, browse and play your game collection with a clean and responsive interface.
@@ -36,27 +36,29 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 releaseNotes: >-
-  ⚠️ There is a bug in this version with partial metadata scans that may overwrite the cover image for games already in your library. We recommend not enabling RetroAchievements and not running partial metadata scans at this time.
+  This update includes several improvements and bug fixes:
 
 
-  This update brings several new features and improvements:
-
-    - RetroAchievements integration: View your achievements earned on other devices right in the app
-    - Improved accessibility: Started a long-term effort to make the web app more accessible with screen reader support
-    - Invite links: Generate preset role invite links for easy user onboarding
-    - Server stats: View library statistics like size-per-platform in the new admin stats view
-    - Added "show playable games" filter
-    - Added password recovery option
-    - New platform grouping options
-    - Support for sorting games by file size
-    - Optional 3D tilt effect for cards
+  New features:
+    - Added clean resources task and revamped the whole task system
+    - Store last scan selected sources in storage
+    - Added background color picker to ruffle
+    - Display version information in the banner
 
 
-  Various fixes and optimizations have also been implemented, including:
+  Fixes and improvements:
+    - Fixed horizontal scrollable layout in details view
+    - Improved path validation for rom files
+    - Fixed clicking on meta pills and using correct filters
+    - Fixed LaunchBox URL
+    - Fixed using symlinks on volumes
+    - Added missing ssfr platform and fixed IDs
 
-    - Fixed issues with screenshot updates, hidden ROMs display, and iOS full-screen play
-    - Improved RAM usage and filesystem path handling
-    - Enhanced multi-file ROM handling
+
+  Other changes:
+    - Updated logos and icons
+    - Enhanced grammar and consistency in documentation
+    - Improved platform grouping and filtering
 
 
   Full release notes can be found at https://github.com/rommapp/romm/releases

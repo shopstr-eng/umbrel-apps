@@ -3,7 +3,7 @@ id: nginx-proxy-manager
 name: Nginx Proxy Manager
 tagline: Expose your services easily and securely
 category: networking
-version: "2.12.3"
+version: "2.12.6"
 port: 4498
 description: >-
   Expose your apps to the internet easily and securely.
@@ -37,11 +37,9 @@ gallery:
   - 3.jpg
 releaseNotes: >-
   Key highlights in this release:
-    - Added SSL support for Streams
-    - Improved SSL certificate management with usage indicators
-    - Added support for additional DNS providers
-    - Enhanced authentication system
-    - Various bug fixes and improvements
+    - Improved startup file ownership script with new environment variable to skip certbot folders
+    - Updated Certbot and applied legacy fixes to support old certbot plugins
+    - Updated s6-overlay
 
 
   Full release notes are available at https://github.com/NginxProxyManager/nginx-proxy-manager/releases

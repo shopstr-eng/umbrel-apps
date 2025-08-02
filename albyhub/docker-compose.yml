@@ -6,7 +6,7 @@ services:
       APP_PORT: 8080
       PROXY_AUTH_ADD: "false"
   server:
-    image: ghcr.io/getalby/hub:v1.17.2@sha256:49f9019bf218239c2cd57091524e130d4e74c815bd731d4e9c8b3d6deb7887c0
+    image: ghcr.io/getalby/hub:v1.18.5@sha256:2fdeba8991028939ee3b98dca83b7bfaa1dbb6b27dc9182b5552d65395213f96
     user: 1000:1000
     volumes:
       - ${APP_DATA_DIR}/data:/data

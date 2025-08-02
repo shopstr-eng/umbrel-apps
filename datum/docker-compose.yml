@@ -7,7 +7,7 @@ services:
       APP_PORT: 21000
 
   datum:
-    image: ghcr.io/retropex/datum:v1.10-umbrel-widget@sha256:1b3efa38348a8b4812e8080cef3c8dbcf661313674f9618566ffc88aef800b4c
+    image: ghcr.io/retropex/datum:v1.13@sha256:a0464baa3556fd8695db41eb4e5372861288296b489b37b80765414a0bfa5354
     entrypoint: ["/app/datum_gateway"]
     command: ["--config=/app/conf/datum_gateway_config.json"]
     user: 1000:1000

@@ -3,7 +3,7 @@ id: zabbix
 category: networking
 name: Zabbix
 tagline: The all-in-one, open-source solution that lets you monitor anything
-version: "7.2.7"
+version: "7.2.11"
 description: >-
   ⚠️ Zabbix may take a few minutes to initialize after installation. Please be patient.
 
@@ -38,13 +38,17 @@ defaultUsername: "Admin"
 defaultPassword: "zabbix"
 torOnly: false
 releaseNotes: >-
-  This release includes several improvements and bug fixes:
-    - Added Azure Backup Jobs and updated PostgreSQL templates
-    - Improved macro security with secret masking
-    - Enhanced VMware and TimescaleDB support
-    - Numerous bug fixes across server, proxy, frontend, and templates
-    - Resolved macro parsing, timeout handling, and UI display issues
-    - Improved dashboard elements and filtering logic
+  Key highlights in this release include:
+    - Improved support for TimescaleDB with updated version compatibility
+    - Fixed issues with DNS queries and IP address handling
+    - Resolved problems with preprocessing queue tasks
+    - Enhanced handling of ODBC error messages
+    - Improved high availability node recovery process
+    - Fixed connection reuse for Elasticsearch
+    - Enhanced SNMP cache cleanup logic
+    - Fixed issues with file and directory monitoring
+    - Improved vault secrets resolution on Zabbix proxy
+    - Enhanced user macro synchronization between server and proxy
 
 
   Full release notes are available at https://www.zabbix.com/release_notes

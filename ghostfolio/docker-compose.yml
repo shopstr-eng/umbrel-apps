@@ -7,7 +7,7 @@ services:
       APP_PORT: 3334
 
   server:
-    image: ghostfolio/ghostfolio:2.166.0@sha256:b77402ab302213c1fa72861460add6c8f14b269282d93b9d6b3fab6f790fe120
+    image: ghostfolio/ghostfolio:2.186.0@sha256:ae7f73c7204c828c3ff0920d5a138943a6e846f76208256b848ea2d59a14f441
     init: true
     restart: on-failure
     environment:
@@ -23,7 +23,7 @@ services:
       REDIS_HOST: ghostfolio_redis_1
       REDIS_PASSWORD: ${APP_GHOSTFOLIO_REDIS_PASSWORD}
       REDIS_PORT: 6379
-  
+
   postgres:
     image: postgres:14-bullseye@sha256:c2a30d08a6f9e6c365595fd086c9e0436064c52425f15f72379ecf0807bac518
     restart: on-failure

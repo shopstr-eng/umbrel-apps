@@ -7,6 +7,6 @@ services:
       APP_PORT: 3210
 
   app:
-    image: lobehub/lobe-chat:1.91.3@sha256:11921739f1922c58eabc854b0245329f448d8b0c89427fbe296a7809b7e9f75e
+    image: lobehub/lobe-chat:1.107.1@sha256:5a0955593ec7a4c5f18d02d45b63a9fb3f1a8d56418f5e84c43d78650bce1560
     restart: on-failure
     user: "1000:1000"

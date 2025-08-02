@@ -3,7 +3,7 @@ id: linkwarden
 name: Linkwarden
 tagline: Bookmark Preservation for Individuals and Teams
 category: social
-version: "2.10.2"
+version: "2.11.5"
 port: 8233
 description: >-
   📚 Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and archive webpages.
@@ -27,15 +27,13 @@ defaultUsername: ""
 defaultPassword: ""
 dependencies: []
 releaseNotes: >-
-  This update brings several new features and improvements:
-
-
-    - Added support for using OpenAI-compatible providers as the AI tagging model
-    - Enhanced worker logging for link processing queue
-    - Various bug fixes and small improvements
-
-
-  The official mobile app is now in development!
+  This update includes:
+    - Bug fixes
+    - Improved user experience
+    - Spanish translation is now complete
+    - Fixed preservation content delay
+    - French translation is now complete
+    - Pocket CSV file now imports tags as well
 
 
   Full release notes can be found at https://github.com/linkwarden/linkwarden/releases

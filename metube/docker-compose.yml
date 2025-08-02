@@ -7,7 +7,7 @@ services:
       APP_PORT: 8081
 
   metube:
-    image: ghcr.io/alexta69/metube:2025-05-01@sha256:47611e7196e2da6619b3a387dd4f0aabfa3ceda3a7c736a5d28211c59b32f6d3
+    image: ghcr.io/alexta69/metube:2025-07-01@sha256:6ca874e368e4f54d0a586a0c24b1bc8ade386b5505a7214ffef4edff11514beb
     restart: on-failure
     volumes:
       - ${UMBREL_ROOT}/data/storage/downloads/metube:/downloads

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: penpot
 category: developer
 name: Penpot
-version: "2.7.1"
+version: "2.8.1"
 tagline: Design and prototyping platform
 description: >-
   Penpot is a pioneering open-source platform for design and prototyping, tailored specifically for product teams.
@@ -10,17 +10,18 @@ description: >-
   of open standards, specifically SVG. Penpot invites designers all over the world to fall in love with open source
   while getting developers excited about the design process in return.
 releaseNotes: >-
-  This update includes new features and improvements:
-    - Updated board presets with newer devices
-    - Improved sharing of prototypes for editors and viewers
-    - Enhanced design of the Invitations page with an empty state
-    - Added ability to duplicate token sets
-    - Improved set selection in create Token themes flow
-    - Added display indicator for inactive sets
+  This update includes new features, enhancements, and bug fixes:
+
+    - Added Serbian language support
+    - Optimized profile setup flow for better user experience
+    - Added multi-file token import and export
+    - Improved path shape data encoding
+    - Added support for system color scheme
+    - Persisted ruler visibility across files and reloads
+    - Updated Google fonts
+    - Added new tooltip component to design system
     - Fixed various UI and functionality issues
-    - Improved path editing and component management
-    - Enhanced token handling and color preservation
-    - Fixed several bugs related to workspace shortcuts, library syncing, and file importing
+    - Improved error handling and user experience
 
 
   Full release notes are found at https://github.com/penpot/penpot/releases

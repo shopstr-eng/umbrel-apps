@@ -2,7 +2,7 @@ manifestVersion: 1
 id: metube
 category: media
 name: MeTube
-version: "2025-05-01"
+version: "2025-07-01"
 tagline: Download videos from YouTube
 description: >-
   Download videos from YouTube (and dozens of other sites) directly to your Umbrel.
@@ -15,7 +15,10 @@ releaseNotes: >-
 
 
   Highlights:
-    - Improvements to the underlying audio/video downloader
+    - Upgraded yt-dlp for better video downloading compatibility
+
+
+  Full release notes can be found at https://github.com/alexta69/metube/releases
 support: https://github.com/alexta69/metube/issues
 website: https://github.com/alexta69/metube
 gallery:
